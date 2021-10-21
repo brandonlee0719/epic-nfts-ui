@@ -1,0 +1,13 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 150px; height: 150px;"><style>
+     .line-file2 {animation:line-file2-tick 4s infinite;}
+     @keyframes line-file2-tick {
+         20%{stroke-dashoffset: 110;}
+         60%{stroke-dashoffset: 0;}
+         100%{stroke-dashoffset: 0;}
+     }
+     @media (prefers-reduced-motion: reduce) {
+         .line-file2 {
+             animation: none;
+         }
+     }
+    </style><rect class="stroke1 fill1" x="18" y="8" width="64" height="85" fill="rgba(255,249,235,1)" stroke="#000" stroke-width="2.6px" style="animation-duration: 2.5s;"></rect><path class="line-file2 stroke2" d="M30 53.8L41.1429 65L69 37" stroke="#000" stroke-width="2.6px" stroke-dasharray="110" stroke-dashoffset="110" style="animation-duration: 2.5s;"></path></svg>

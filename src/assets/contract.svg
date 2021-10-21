@@ -1,0 +1,73 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 200px; height: 200px;"><style>
+    .line-file1-a {
+        animation: line-file1-draw 3.1s infinite;
+        stroke-dasharray: 110;
+    }
+    .line-file1-b {
+        animation: line-file1-draw 2.8s 270ms infinite;
+        stroke-dasharray: 110;
+        stroke-dashoffset: 180;
+    }
+    .line-file1-c {
+        animation: line-file1-draw 3.6s 200ms infinite;
+        stroke-dasharray: 110;
+        stroke-dashoffset: 120;
+    }
+    .line-file1-d {
+        animation: line-file1-draw 2.9s 160ms infinite;
+        stroke-dasharray: 110;
+    }
+    .line-file1-e {
+        animation: line-file1-draw 3.3s 190ms infinite;
+        stroke-dasharray: 110;
+        stroke-dashoffset: 200;
+    }
+    .line-file1-f {
+        animation: line-file1-draw 2.7s 240ms infinite;
+        stroke-dasharray: 110;
+        stroke-dashoffset: 80;
+    }
+    @keyframes line-file1-draw {
+        0% {
+            stroke-dashoffset: 120;
+        }
+        20% {
+            stroke-dashoffset: 120;
+        }
+        40% {
+            stroke-dashoffset: 140;
+        }
+        80% {
+            stroke-dashoffset: 0;
+        }
+        100% {
+            stroke-dashoffset: -110;
+        }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .line-file1-a, .line-file1-b, .line-file1-c {
+            animation: none;
+        }
+    }
+    .base {
+        fill: black;
+        font-family: "Azeret Mono", monospace;
+        font-weight: bold;
+        font-size: 6px;
+        background-image: linear-gradient(to left, #60c657, #35aee2);
+    }
+    </style>
+    <path class="fill1" d="M14 6V94H86V30.5H61.5V6H14Z" fill="rgba(255,249,235,1)" stroke-width="2.0px"></path>
+    <!-- <path class="fill1" d="M14 6V94H86V30.5H61.5V6H14Z" fill="rgba(255,249,235,1)" stroke-width="2.0px"></path> -->
+    <path class="fill1" d="M86 30.5L61.5 6V30.5H86Z" fill="rgba(255,249,235,1)" stroke-width="2.0px"></path>
+    <!-- 6M14 40V30.5H36V6 -->
+    <!-- <path class="fill1" d="M30 20.5L100 2V20.5H150Z" fill="rgba(255,249,235,1)" stroke-width="2.0px"></path> -->
+    <path class="stroke1" d="M86 30.5V94H14V6H61.5M86 30.5L61.5 6M86 30.5H61.5V6" stroke="rgba(0,0,0,1)" stroke-width="2.0px"></path>
+    <text class='base' margin='2px' x='24' y='20'>Epics</text>
+    <line class="line-file1-a stroke2" x1="20" y1="30" x2="48.5" y2="30" stroke="rgba(0,143,173,1)" stroke-width="2.0px"></line>
+    <line class="line-file1-b stroke2" x1="27.5" y1="40" x2="54.5" y2="40" stroke="rgba(0,143,173,1)" stroke-width="2.0px"></line>
+    <line class="line-file1-c stroke2" x1="20" y1="50" x2="48.5" y2="50" stroke="rgba(0,143,173,1)" stroke-width="2.0px"></line>
+    <line class="line-file1-d stroke2" x1="27.5" y1="60" x2="75.5" y2="60" stroke="rgba(0,143,173,1)" stroke-width="2.0px"></line>
+    <line class="line-file1-e stroke2" x1="20" y1="70" x2="65.5" y2="70" stroke="rgba(0,143,173,1)" stroke-width="2.0px"></line>
+    <line class="line-file1-f stroke2" x1="27.5" y1="80" x2="71.5" y2="80" stroke="rgba(0,143,173,1)" stroke-width="2.0px"></line>
+</svg>

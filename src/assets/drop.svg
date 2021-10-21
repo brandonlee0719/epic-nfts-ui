@@ -1,0 +1,34 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 150px; height: 150px;"><style>
+     .line-drop1-move {animation:line-drop1-move 4s linear infinite; transform-origin:69px 36.5px;}
+     .line-drop1-arm1 {animation:line-drop1-arm1 4s infinite; transform-origin:69.5px 48px;}
+     .line-drop1-arm2 {animation:line-drop1-arm2 4s infinite; transform-origin:69.5px 48px;}
+     .line-drop1-box {animation:line-drop1-box 4s infinite;}
+     @keyframes line-drop1-move {
+         0%{transform:translate3d(-100px, 0, 0);}
+         20%{transform:translate3d(-100px, 0, 0);}
+         100%{transform:translate3d(60px, 0, 0);}
+     }
+     @keyframes line-drop1-arm1 {
+         0%{transform:rotate(0);}
+         50%{transform:rotate(0);}
+         80%{transform:rotate(-20deg);}
+         100%{transform:rotate(-20deg);}
+     }
+     @keyframes line-drop1-arm2 {
+         0%{transform:rotate(0);}
+         50%{transform:rotate(0);}
+         80%{transform:rotate(20deg);}
+         100%{transform:rotate(20deg);}
+     }
+     @keyframes line-drop1-box {
+         0%{transform:translate3d(0, 0, 0);}
+         30%{transform:translate3d(0, 0, 0);}
+         55%{transform:translate3d(0, 0, 0);}
+         100%{transform:translate3d(0, 200px, 0);}
+     }
+     @media (prefers-reduced-motion: reduce) {
+         .line-drop1-move, .line-drop1-arm1, .line-drop1-arm2, .line-drop1-box {
+             animation: none;
+         }
+     }
+    </style><rect class="stroke2 fill2" x="-6" y="14" width="111" height="14" rx="2" fill="rgba(131,30,30,1)" stroke="rgba(0,0,0,1)" stroke-width="2px" style="animation-duration: 4s;"></rect><g class="line-drop1-move" style="animation-duration: 4s;"><path class="line-drop1-arm1 stroke1" d="M69.5 46L88.5 65L81 72.5" stroke="rgba(0,0,0,1)" stroke-width="2px"></path><path class="line-drop1-arm2 stroke1" d="M69.5 46L50.5 65L58 72.5" stroke="rgba(0,0,0,1)" stroke-width="2px"></path><path class="stroke1" d="M69.5 46V29" stroke="rgba(0,0,0,1)" stroke-width="2px"></path><rect class="stroke1 fill1" x="62" y="11" width="15" height="20" rx="2" fill="rgba(95,99,121,1)" stroke="rgba(0,0,0,1)" stroke-width="2px"></rect><rect class="line-drop1-box stroke1 fill1" x="56" y="64" width="26" height="25" rx="2" fill="rgba(95,99,121,1)" stroke="rgba(0,0,0,1)" stroke-width="2px"></rect></g></svg>
